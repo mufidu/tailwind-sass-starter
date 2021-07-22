@@ -4,7 +4,7 @@ A plain starter template for using Tailwind with Sass (without Next, Gatsby, Lar
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com) to use this template.
+Use the package manager [npm](https://www.npmjs.com) to use this template, or hit the "Use this template" button above.
 
 ```bash
 npm install
