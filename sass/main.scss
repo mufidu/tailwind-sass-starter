@@ -2,6 +2,10 @@
 @import "tailwindcss/components.css";
 @import "tailwindcss/utilities.css";
 
+body {
+    @apply text-center;
+}
+
 h1 {
-    @apply text-5xl text-center mt-8;
+    @apply text-5xl mt-8;
 }
