@@ -17,7 +17,7 @@ npm install
 ## Running for development
 
 ```bash
-npm run watch
+npm start
 ```
 
 In development CSS output is not optimized since it doesn't make sense to compress and purge everything on every change.
