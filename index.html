@@ -1,61 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/styles.css" />
-        <title>Tailwind & Sass Starter</title>
-    </head>
-    <body>
-        <h1 id="tailwind-and-sass-starter-template">
-            Tailwind and Sass Starter Template
-        </h1>
-        <p>
-            A plain starter template for using Tailwind with Sass (without Next,
-            Gatsby, Laravel, etc).
-        </p>
-        <p>
-            <a href="https://github.com/mufidu/tailwind-sass-starter"
-                >View on Github</a
-            >
-        </p>
-        <h2 id="why-sass-">Why Sass?</h2>
-        <p>
-            I personally like using Tailwind altogether with Sass because it
-            makes me able to nest the styles. Also, the <code>@mixin</code> and
-            <code>@extend</code> features really help me to avoid writing the
-            same styles again and again, so the stylesheet is a bit more
-            readable.
-        </p>
-        <h2 id="installation">Installation</h2>
-        <p>
-            Use the package manager <a href="https://www.npmjs.com">npm</a> to
-            use this template, or hit the &quot;Use this template&quot; button
-            above.
-        </p>
-        <pre><code class="lang-bash">npm <span class="hljs-keyword">install</span>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Tailwind & Sass Starter</title>
+</head>
+
+<body>
+    <h1 id="tailwind-and-sass-starter-template">
+        Tailwind and Sass Starter Template
+    </h1>
+    <p>
+        A plain starter template for using Tailwind with Sass (without Next,
+        Gatsby, Laravel, etc).
+    </p>
+    <p>
+        <a href="https://github.com/mufidu/tailwind-sass-starter">View on Github</a>
+    </p>
+    <h2 id="why-sass-">Why Sass?</h2>
+    <p>
+        I personally like using Tailwind altogether with Sass because it
+        makes me able to nest the styles. Also, the <code>@mixin</code> and
+        <code>@extend</code> features really help me to avoid writing the
+        same styles again and again, so the stylesheet is a bit more
+        readable.
+    </p>
+    <h2 id="installation">Installation</h2>
+    <p>
+        Use the package manager <a href="https://www.npmjs.com">npm</a> to
+        use this template, or hit the &quot;Use this template&quot; button
+        above.
+    </p>
+    <pre><code class="lang-bash">npm <span class="hljs-keyword">install</span>
 </code></pre>
-        <h2 id="running-for-development">Running for development</h2>
-        <pre><code class="lang-bash">npm <span class="bash"> start</span>
+    <h2 id="running-for-development">Running for development</h2>
+    <pre><code class="lang-bash">npm <span class="bash"> start</span>
 </code></pre>
-        <p>
-            In development CSS output is not optimized since it doesn&#39;t make
-            sense to compress and purge everything on every change.
-        </p>
-        <h2 id="building-for-production">Building for production</h2>
-        <pre><code class="lang-bash">npm <span class="hljs-keyword">run</span><span class="bash"> build</span>
+    <p>
+        Run the command above, and you are ready to go! To build your website, edit `index.html` to your liking, and
+        style it by editing and/or adding SCSS files in the `sass` folder. Your SCSS files will be automatically
+        processed and outputted to the `css` folder, upon every save.
+    </p>
+    <p>
+        In development CSS output is not optimized since it will be slow to compress and purge everything on every
+        change.
+    </p>
+    <h2 id="building-for-production">Building for production</h2>
+    <pre><code class="lang-bash">npm <span class="hljs-keyword">run</span><span class="bash"> build</span>
 </code></pre>
-        <p>
-            In production CSS output is optimized using Tailwind default purging
-            and cssnano compression.
-        </p>
-        <h2 id="contributing">Contributing</h2>
-        <p>
-            Pull requests are welcome. For major changes, please open an issue
-            first to discuss what you would like to change.
-        </p>
-        <h2 id="license">License</h2>
-        <p><a href="https://github.com/mufidu/tailwind-sass-starter/blob/main/LICENSE">MIT</a></p>
-    </body>
+    <p>
+        In production, CSS output in the `css` folder will be optimized using Tailwind purging and cssnano compression.
+        Don't
+        forget to update the glob pattern in `purge` option in
+        [tailwind.config.js](https://github.com/mufidu/tailwind-sass-starter/blob/main/tailwind.config.js), if you
+        change folder
+        structure in your project.
+
+    </p>
+    <h2 id="contributing">Contributing</h2>
+    <p>
+        Pull requests are welcome. For major changes, please open an issue
+        first to discuss what you would like to change.
+    </p>
+    <h2 id="license">License</h2>
+    <p><a href="https://github.com/mufidu/tailwind-sass-starter/blob/main/LICENSE">MIT</a></p>
+</body>
+
 </html>

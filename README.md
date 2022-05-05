@@ -19,8 +19,9 @@ npm install
 ```bash
 npm start
 ```
+Run the command above, and you are ready to go! To build your website, edit `index.html` to your liking, and style it by editing and/or adding SCSS files in the `sass` folder. Your SCSS files will be automatically processed and outputted to the `css` folder, upon every save.
 
-During development, CSS output is not optimized since it doesn't make sense to compress and purge everything on every change. 
+During development, CSS output is not optimized since it will be slow to compress and purge everything on every change. 
 
 ## Building for production
 
@@ -28,7 +29,7 @@ During development, CSS output is not optimized since it doesn't make sense to c
 npm run build
 ```
 
-In production, CSS output is optimized using Tailwind purging and cssnano compression. Don't forget to update the glob pattern in `purge` option in [tailwind.config.js](https://github.com/mufidu/tailwind-sass-starter/blob/main/tailwind.config.js) if you change folder structure in your project.
+In production, CSS output in the `css` folder will be optimized using Tailwind purging and cssnano compression. Don't forget to update the glob pattern in `purge` option in [tailwind.config.js](https://github.com/mufidu/tailwind-sass-starter/blob/main/tailwind.config.js), if you change folder structure in your project.
 
 ## Contributing
 
