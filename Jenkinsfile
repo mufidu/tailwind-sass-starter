@@ -17,7 +17,7 @@ pipeline {
             }
         }
 
-        stage('Build for Production') {
+        stage('Build') {
             steps {
                 // Build for production
                 sh 'npm run build'
